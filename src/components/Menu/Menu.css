@@ -1,0 +1,33 @@
+.menu{
+display: flex;
+flex-wrap: wrap;
+gap: 75px;
+padding: 30px;
+margin-bottom: 1rem;
+font-family: "Merriweather", serif;
+background: url('./../images/food.jpeg');
+background-size: cover;
+}
+
+.card{
+
+    width: 18rem;
+    opacity: 90%;
+    transition: all 0.3s;
+  }
+  .card:hover{
+    -webkit-box-shadow: 1px 6px 14px 2px rgba(0,0,0,0.84);
+  -moz-box-shadow: 1px 6px 14px 2px rgba(0,0,0,0.84);
+  box-shadow: 1px 6px 14px 2px rgba(0,0,0,0.84);
+  transform: scale(1.05);
+  }
+  .ratings{
+    margin: 0px 10px 5px 240px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    background: green;
+
+  }
+
+  

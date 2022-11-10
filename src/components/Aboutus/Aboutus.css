@@ -1,0 +1,38 @@
+.about{
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 40px;
+margin: 50px;
+padding-top: 70px;
+
+}
+.greetings{
+font-weight: bold;
+text-align: center;
+margin-top: 70px;
+}
+.msg{
+color: blue;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.content{
+    margin: 120px 200px 30px 240px;
+    margin-bottom: 1rem;
+}
+.aboutus{
+    background: url('./../images/aboutus.webp');
+    background-size:cover ;
+    height: 100%;
+    opacity: 0.8;
+    font-family: "Merriweather", serif;
+}
+.hero-logo{
+    margin:20px;
+    margin-left: 530px;
+    display: flex;
+    justify-content: center;
+}

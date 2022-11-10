@@ -1,0 +1,31 @@
+.h1{
+    text-align: center;
+    color: black;
+    background: lightgrey;
+}
+.h3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+}
+.cart-container{
+width: 80%;
+margin: 0 auto ;
+}
+.fooditem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.foodname{
+    width: 250px;
+}
+.coupon{
+padding: 20px 350px;
+}
+.btn_btn-primary mx-auto{
+    position: fixed;
+    left: 650px;
+    top: 750px;
+}

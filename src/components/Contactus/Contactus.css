@@ -1,0 +1,38 @@
+
+.form-group {
+
+    margin-bottom: 24px;
+    font-family: "Merriweather", serif;
+}
+
+.form-group input,
+contact .form-group textarea {
+    padding: 17px;
+}
+
+.contact{
+    height: 100%;
+    background-image: url(./../images/food.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control-msg{
+    margin-top: 7px;
+    height: 230px;
+    width: 600px;
+    border-radius: 5px;
+}
+.col-lg-12{
+    margin-top: 110px;
+}
+.section-heading{
+    margin-top: 20px;
+    color:black;
+    text-transform: uppercase;
+    font-family: "Merriweather", serif;
+
+}
+.button:hover{
+    background: lightpink;
+}

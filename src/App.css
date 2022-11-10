@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+
 .App {
   text-align: center;
   display: flex;
@@ -6,6 +8,7 @@
   justify-content: center;
   color: white;
   margin-top: 10px;
+  font-family: "Merriweather", serif;
  
   background-image: linear-gradient( #1d20dd, #fff);
 
@@ -19,10 +22,12 @@
 
 @media screen and (min-width: 400px) {
   .auth-form-container {
-    padding: 85px;
+    padding: 105px;
     border: 1px solid white;
     border-radius: 10px;
     margin: 10px;
+    position: fixed;
+    left: 90px;
   }
 }
 
@@ -51,23 +56,17 @@ button {
 .link-btn {
   background: none;
   color: white;
-  /* text-decoration: bold; */
 }
 .background{
   width: auto;
   height: 820px;
   background: transparent;
 }
-
-/* .link-btn:hover
-{
-  
-    border: none;
-    background-color: #F7944D;
-    padding: 30px;
-    margin: 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #7439db;
-
-} */
+.login , .register{
+object-fit: cover;
+height: 770px;
+width: 750px;
+position: fixed;
+top: 65px;
+right: 1px;
+}
